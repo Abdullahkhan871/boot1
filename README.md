@@ -14,8 +14,7 @@ Jab hum kisi tag ko class-Name denge to we apne se badi class pe bhi lag jaygi p
     for example : text-lg-center to yeh xl and xxl pr bhi text center hoga 
     for example : text-xxl-end to yeh xxl pr override ho jayga and text-center se text-end ho jayga 
 
-
----------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 
 Container :
                     <576px      ≥576px      ≥768px      ≥992px      ≥1200px     ≥1400px
@@ -39,7 +38,6 @@ row => col-sm-1 => col-12
 --------------------------------------------------------------------------------
 
 Auto Column Layout :
-
 
 --------------------------------------------------------------------------------
 
@@ -66,12 +64,12 @@ m-0 => 0rem     =>  0px
 m-1 => 0.25rem  =>  4px
 m-2 => 0.5rem   =>  8px
 m-3 => 1rem     => 16px
-m-4 => 1.5rem   => 24px
+m-4 => 1.5rem   => 2 
 m-5 => 3rem     => 48px
 
 
 
-------------------------------------------------------------
+--------------------------------------------------------------------------------
 
 
 Padding : 
@@ -93,3 +91,23 @@ p-4 => 1.5rem   => 24px
 p-5 => 3rem     => 48px
 
 pt-md-2 , p-lg-3
+
+
+--------------------------------------------------------------------------------
+
+Image Responsive : 
+
+class => img-fluid take parent 100% height and width 
+
+img-fluid image has to bigger than parent tag on height and width
+
+
+--------------------------------------------------------------------------------
+
+flex == row 
+
+row => justify-content-center 
+row => align-items-center 
+
+
+--------------------------------------------------------------------------------
