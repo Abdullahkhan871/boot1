@@ -1,0 +1,37 @@
+:root {
+  --primary: linear-gradient(to right, #0acefe, #2699fb);
+}
+.heading {
+  background: var(--primary);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+* {
+  font-family: "Inter", sans-serif;
+}
+.whatsappBtn {
+  color: #27ae60;
+  outline: #27ae60;
+  padding: 10px 18px;
+}
+.whatsappBtn:hover {
+  color: #27ae60;
+}
+.callBtn {
+  padding: 10px 18px;
+  background: var(--primary);
+}
+.custom-list {
+  padding: 5px;
+  background-color: #2699fb;
+}
+.left-banner p {
+  font-size: 1.5rem;
+}
+h1 {
+  font-size: 52px;
+}
+.left-banner .line {
+  top: 115px;
+  left: 60px;
+}
