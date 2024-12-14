@@ -20,6 +20,42 @@
     <title>Document</title>
   </head>
   <body>
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body bg-dark text-white">
+            ⠀⣶⣦⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⢰⣿⣿⣿⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+            ⠈⢿⣿⣿⣿⣗⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠘⣿⣿⣿⣿⣷⣬⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+            ⠀⠀⠈⣿⣿⣿⣿⡟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⣿⣿⣿⣿⡃⣷⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+            ⠀⠀⠀⢻⣿⣯⣅⣰⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠸⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⢀⠤⠶⢶⣤⡀⠀⠀⠀⠀⠀⠀⠀⠀
+            ⠀⠀⠀⠀⣿⣿⣿⣿⣿⡏⠀⠀⠀⣼⣧⡀⠀⠀⠈⠛⣆⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⢀⣿⣿⣿⣿⣿⣿⠀⠀⣰⣿⣟⠿⣗⠾⢺⣦⡸⠀⠀⠀⠀⠀⠀⠀
+            ⠀⠀⠀⣿⣿⣿⣿⣿⣯⣿⡄⠀⢹⣿⣿⠳⡄⣿⣤⠉⡁⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⢹⣿⣿⣿⣿⣿⣿⡇⠀⠀⢹⣿⣡⡻⠿⢟⢠⠁⠀⠀⠀⠀⠀⠀⠀
+            ⠀⠀⠀⠸⣿⣿⣿⣿⣿⣿⡧⡀⢠⣾⣿⣿⣿⣶⣶⠇⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⢇⠁⠰⣄⡀⠙⢸⣽⢁⠀⠀⠀⠀⠀⠀⠀⠀⠀
+            ⠀⠀⠀⠀⣿⣿⣿⣿⣿⡿⡼⣁⣀⣜⣶⣤⡀⠑⠄⠠⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠘⣿⣿⣿⣻⡟⠟⣿⣇⠀⠉⡉⢷⢄⡸⠀⠐⠀⡀⠀⠀⠀⠀⠀
+            ⠀⠀⠀⠀⠀⢻⣿⣿⣼⢠⢠⣿⣿⡇⠀⠀⠘⣶⠧⣫⠉⢀⠀⠠⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⢸⣿⣿⣿⣯⠚⣿⣿⣗⠒⠀⠀⠀⢏⣮⡅⠘⠳⣄⠳⠀⠀⠀
+            ⠀⠀⠀⠀⠀⠸⣿⣿⣿⣿⣿⣿⣿⣿⡷⠆⠀⡀⠈⠹⣶⣤⠀⢉⠄⢂⠀⠀ ⠀⠀⠀⠀⠀⠀⢻⣻⣿⣿⣿⣿⣿⣿⣿⣶⣦⡇⣥⡢⠸⣷⢦⣘⠓⢪⡀⠀
+            ⠀⠀⠀⠀⠀⢀⡜⠩⠭⠉⠉⠉⠙⠛⠿⠿⣿⣹⣿⡿⠇⠀⠋⠛⠆⡿⢃⠀ ⠀⠀⠀⠀⢀⢯⣄⡀⠀⢀⢴⠀⠠⠀⠀⠀⢈⣨⣤⢄⣀⠀⠀⣆⠀⠑⢬⡆
+            ⠀⠀⠀⢀⠂⠀⠟⠋⠍⠋⡌⠀⠀⠀⠀⠀⡌⠈⢿⣯⣷⡀⣀⣿⣀⠀⠀⠈
+          </div>
+        </div>
+      </div>
+    </div>
+
     <header
       class="container-fluid py-2 shadow-lg position-fixed top-0 z-3 bg-white"
     >
@@ -38,7 +74,12 @@
               >
                 <i class="fa-brands fa-whatsapp"></i> Chat with Us
               </button>
-              <button type="button" class="btn text-white border-0 callBtn">
+              <button
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+                class="btn text-white border-0 callBtn"
+              >
                 <i class="fa-solid fa-phone"></i> Call Us
               </button>
             </div>
@@ -46,7 +87,7 @@
         </div>
       </div>
     </header>
-    <main class="container-fluid mt-5 main">
+    <main class="container-fluid mt-5 pt-4 pt-sm-0 main">
       <!-- // hero Section  -->
       <section
         class="container py-4 px-3 py-lg-5 px-lg-4 py-sm-5 px-sm-2 hero-section"
